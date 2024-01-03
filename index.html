@@ -8,15 +8,39 @@
     <title>TailwindCSS</title>
   </head>
   <body>
-      <header>
+    <!-- Header -->
+      <header class="px-2 border-b-2">
       <a class="uppercase font-bold text-purple-700">webDev</a>
       <nav>
         <ul class="text-gray-400 font-semibold">
-          <li><a  href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a class="inline-block py-3 px-2" href="#">Home</a></li>
+          <li><a class="inline-block py-3 px-2"href="#">About</a></li>
+          <li><a class="inline-block py-3 px-2"href="#">Contact</a></li>
         </ul>
       </nav>
     </header>
+    <main>
+      <!-- breadcrumbs -->
+      <div class="py-4 overflow-y-auto whitespace-nowrap">
+        <div>
+          <a class="text-gray-700" href="#">Home</a>
+          <span class="mx-2 text-gray-500">&gtcc;</span>
+          <a class="text-gray-700" href="#">News</a>
+          <span class="mx-2 text-gray-500">&gtcc;</span>
+          <a class="text-gray-700" href="#">Tech</a>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div>
+        <div>
+          <h6>Company</h6>
+          <ul>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">About us</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
